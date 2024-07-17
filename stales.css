@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 14px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 6px solid #ddd;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    border-top: 1px solid #4CAF50;
+    border-bottom: 4px solid #4CAF50;
+}
+
+/* Estilos específicos para celdas de datos y encabezados */
+td {
+    font-size: 16px;
+}
+
+/* Estilos para el texto de disponibilidad */
+span.disponible {
+    color: green;
+    font-weight: bold;
+}
+
+span.agotado {
+    color: red;
+    font-weight: bold;
+}
+
+/* Estilos para botones de compra */
+button.boton-comprar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button.boton-comprar:hover {
+    background-color: #45a049;
+}
+
+/* Estilos adicionales para bordes por columnas */
+/* Bordes verticales entre columnas */
+th, td {
+    border-right: 2px solid #ddd;
+}
+
+/* Eliminar el último borde derecho de las últimas celdas */
+th:last-child, td:last-child {
+    border-left: none;
+}
+
+/* Bordes horizontales entre filas */
+tr:last-child td {
+    border-left: none;
+    
+}
